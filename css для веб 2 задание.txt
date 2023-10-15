@@ -1,0 +1,74 @@
+header {
+  display: flex;
+}
+.logo {
+    float: left;
+}
+.title{
+    float: left;
+    margin: 0;
+    padding: 5px;
+    color: rgb(25, 69, 28);
+    text-decoration: none;
+    font-size: 36px;
+}
+  .shapka {
+    float: right;
+    word-spacing:30px;
+      font-size:20px;
+  }
+  .shapka ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .shapka li {
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+  .nach:after { 
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .nach {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .shapka a{
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+  }
+  .spisok{
+    width:50%; 
+    margin-left: 35%;
+  }
+  .nach div {
+    float:left;
+  }
+  table {
+    border: 1px solid rgb(134, 171, 33);
+    border-collapse: collapse;
+    width: 100%;
+ }
+ td {
+    border: 1px solid rgb(80, 91, 20);
+ }
+tbody tr:nth-child(odd)
+{
+    background: #5c8f0f;
+}
+tbody tr:nth-child(even)
+{
+    background: #60aa7c;
+}
+footer{
+  padding: 10px;
+  background-color: #0ed729;
+  color: #000;
+  word-spacing:30px;
+    font-size:20px;
+}

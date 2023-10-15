@@ -1,0 +1,12 @@
+.container-fluid {
+  background-color: #1c8825;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.spisok{
+  list-style-position: inside;
+}
+.footer {
+  background-color: #899216;
+}
